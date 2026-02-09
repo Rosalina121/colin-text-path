@@ -1,6 +1,10 @@
 # Collin McRae Rally 2.0 UI fingubingu
 *by Alina Rosa*
 
+
+https://github.com/user-attachments/assets/05a68469-573c-45f2-87f2-16b5cf94d929
+
+
 Fancy letters following an svg path like in Collin 2.0 menu.  
 Note: not exactly like the menu, but like, close enough
 
