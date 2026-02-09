@@ -1,0 +1,41 @@
+body {
+    background-color: #9CB4AC;
+    /*height: 100vh;*/
+    margin: 20;
+    /*padding: 20;*/
+}
+#colin {
+    /*margin: 20px;*/
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform: scale(5);
+  /*transform: scale(.5);*/
+  transform-origin: top left;
+}
+
+.letter {
+  position: absolute;
+  /*offset-path: path(
+    "M20,70 A40,40,0,0,1,100,70 A40,40,0,0,1,180,70 Q180,130,100,190 Q20,130,20,70 Z"
+  );*/
+  /*defo*/
+  offset-path: path(
+    "M 76 27 C 13 73 -1 10 13 135 C 19 162 30 25 54 109 C 73 195 139 64 120 54 C 89 43 100 6 76 27 Z"
+  );
+  /*doggo*/
+  /*offset-path: path("M755.125,130.775c1.399-33.9-10.8-68.2-36.7-94.1c-49.1-49.101-128.4-48.801-177.5,0.3c-38.8,38.8-47.5,96-24.2,143.6 l-336.1,336.2c-47.6-23.3-104.8-14.6-143.6,24.2c-49.1,49-49.3,128.5-0.2,177.6c25.9,25.9,60.1,38,94,36.601 c-1.4,33.899,10.8,68.2,36.7,94c49.1,49.1,128.4,48.8,177.5-0.3c38.801-38.801,47.4-96,24.101-143.601l336.1-336.1 c47.601,23.3,104.8,14.6,143.601-24.2c49.1-49.101,49.3-128.601,0.199-177.7C823.125,141.476,789.025,129.375,755.125,130.775z");*/
+  offset-rotate: 0deg;
+  animation: move 6000ms infinite linear;
+  font-family: Arial;
+  animation-delay: calc(var(--delay) * -6000ms);
+  color: white;
+  font-weight: 500;
+  font-size: 6px;
+}
+
+@keyframes move {
+  100% {
+    offset-distance: 100%;
+  }
+}
