@@ -17,5 +17,6 @@ In `styles.css` you have some stuff to adjust:
   - you can get it from any svg image, they're all just code after all
 - `font-size` - to your liking
 
-Generally it's an act of finding good balance between scale, font size, and repetitions.
-Also you can remove/change the background and do whatever, it's just CSS. Go wild.
+Generally it's an act of finding good balance between scale, font size, and repetitions.  
+Also you can remove/change the background and do whatever, it's just CSS. Go wild.  
+Ah and also to adjust speed change both occurences of the time (6000ms by default). They should match so the letters are spaced evenly.
